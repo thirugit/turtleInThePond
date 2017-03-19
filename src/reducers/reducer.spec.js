@@ -1,4 +1,4 @@
-import { PLACE_TURTLE, ROTATE_TURTLE, TAKE_COMMAND, SOUTH } from '../constants/actions_constants';
+import { PLACE_TURTLE, ROTATE_TURTLE, TAKE_COMMAND, SOUTH } from '../constants/actionsConstants';
 import reducer, { initialState } from './reducer';
 
 const actionPayload = {

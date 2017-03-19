@@ -1,4 +1,4 @@
-import { TAKE_COMMAND, ROTATE_TURTLE, SOUTH, NORTH, REPORT_ERROR, EAST, WEST } from '../constants/actions_constants';
+import { TAKE_COMMAND, ROTATE_TURTLE, SOUTH, NORTH, REPORT_ERROR, EAST, WEST } from '../constants/actionsConstants';
 
 const proxyquire = require('proxyquire').noCallThru();
 

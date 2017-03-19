@@ -1,4 +1,4 @@
-import { PLACE_TURTLE, ROTATE_TURTLE, TAKE_COMMAND, NORTH, REPORT_ERROR } from '../constants/actions_constants';
+import { PLACE_TURTLE, ROTATE_TURTLE, TAKE_COMMAND, NORTH, REPORT_ERROR } from '../constants/actionsConstants';
 
 export const initialState = {
   turtlePosition: NORTH,

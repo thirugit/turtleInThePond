@@ -1,4 +1,4 @@
-import * as types from '../constants/actions_constants';
+import * as types from '../constants/actionsConstants';
 
 export function getTurtleClass(direction) {
   if (direction === types.WEST) {
