@@ -1,0 +1,93 @@
+h1 {
+	font-size: 18px;
+    font-family: Arial;
+    font-weight: 200;
+    color: #35E5E9;
+}
+
+.square {
+    float:left;
+    position: relative;
+    width: 16%;
+    height : 40px;
+    border:3px solid #FFFFFF;
+    overflow:hidden;
+    background-color: #E1E1E1;
+}
+.square:hover, .square:focus {
+	background-color: #C0BEBE;
+	outline: none;
+}
+.pond-grid {
+	width: 250px;
+	margin: 0 auto;
+}
+.content {
+    position:absolute;
+    cursor: pointer;
+    height:100%;
+    width:100%;
+}
+.table{
+    display:table;
+    height:100%;
+    width:100%;
+}
+.table-cell{
+    display:table-cell;
+    vertical-align:middle;
+    height:100%;
+    width:100%;
+}
+.turtle-img {
+	background-image: url('./images/turtle.png');
+	background-size: contain;
+}
+.face-east {
+	-ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+.face-south {
+	-ms-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+.face-west {
+	-ms-transform: rotate(270deg);
+	-webkit-transform: rotate(270deg);
+	transform: rotate(270deg);
+}
+.input-box {
+	width: 60%;
+    height: 25px;
+    border: 2px solid #DADADA;
+    padding: 5px;
+}
+.input-box:focus {
+	outline: 2px solid #35E5E9;
+}
+.hidden {
+	display: none;
+}
+.error {
+	font-family: Arial;
+	font-size: 14px;
+	color: #FB8C00;
+	font-weight: 100;
+	margin-top: 5px;
+}
+.go-butn {
+	width: 25%;
+	cursor: pointer;
+    background-color: #ACD373;
+    color: #FFFFFF;
+    border: none;
+    height: 38px;
+    font-size: 12px;
+    margin: 5px;
+}
+.go-butn:hover, .go-butn:focus {
+	background-color: #7BA939;
+	outline: none;
+}
