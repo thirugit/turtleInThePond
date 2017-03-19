@@ -1,4 +1,4 @@
-##Turtle in the pond
+## Turtle in the pond
 
 The application is a simulation of a turtle moving around a pond, of dimension 5 units x 5 units. There are no other obstructions in the pond. The turtle is free to roam around the surface of the pond, but will be prevented from touching the walls surrounding the pond (anything outside of the 5 x 5 grid). Any movement that would result in the turtle leaving the pond would be prevented, however further valid movement commands would still be allowed.
 
@@ -23,24 +23,24 @@ So, this project can run without installing in the local machine. Just open the 
 If you want to install and run the project in the local machine, follow the below steps.
 ```
 
-##To install the project
+## To install the project
 
 1. Install [node server v5.4.1](https://nodejs.org/download/release/v5.4.1/)
 2. Open the terminal and go to root folder of this project 
 3. Run `npm install`  (This command will download all the dependencies of this project)
 
-##To start the project
+## To start the project
 
 1. Open the terminal and go to root folder of this project 
 2. Run `npm run start`
 3. Open browser and hit http://localhost:3000
 
-##To run test cases 
+## To run test cases 
 
 1. Open the terminal and go to root folder of this project 
 2. Run `npm run test`
 
-##To find the test coverage
+## To find the test coverage
 
 1. Open the terminal and go to root folder of this project 
 2. Run `npm run test-cover`
